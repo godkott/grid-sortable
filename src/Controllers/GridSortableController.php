@@ -20,6 +20,7 @@ class GridSortableController extends Controller
         $modelClass = $request->get('_model');
 
         try {
+
             $modelClass::setNewOrder($sorts->toArray());
         } catch (Exception $exception) {
             $status  = false;
