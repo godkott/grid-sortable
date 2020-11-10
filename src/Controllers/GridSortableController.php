@@ -17,6 +17,7 @@ class GridSortableController extends Controller
 
         $status     = true;
         $message    = trans('admin.save_succeeded');
+
         $modelClass = $request->get('_model');
 
         try {
