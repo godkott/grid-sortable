@@ -1,6 +1,8 @@
 laravel-admin grid-sortable
 ======
 
+Fixed saving order for models. 
+
 This extension can help you sort by dragging the rows of the data list, the front end is based on [jQueryUI sortable](https://jqueryui.com/sortable/), and the back end is based on [eloquent-sortable](https://github.com/spatie/eloquent-sortable)
 
 这个插件可以帮助你通过拖动数据列表的行来进行排序，前端基于[jQueryUI sortable](https://jqueryui.com/sortable/), 后端基于[eloquent-sortable](https://github.com/spatie/eloquent-sortable)
